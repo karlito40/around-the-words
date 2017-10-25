@@ -1,0 +1,39 @@
+{"frames": {
+
+"usa_scheme1":
+{
+	"frame": {"x":2,"y":624,"w":1682,"h":535},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":154,"w":1682,"h":535},
+	"sourceSize": {"w":1764,"h":721},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"usa_scheme2":
+{
+	"frame": {"x":2,"y":2,"w":1764,"h":620},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":6,"w":1764,"h":620},
+	"sourceSize": {"w":1764,"h":721},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"usa_scheme3":
+{
+	"frame": {"x":2,"y":1161,"w":1669,"h":590},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":69,"w":1669,"h":590},
+	"sourceSize": {"w":1765,"h":721},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "world_usa_road.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:53818312b01c8a9500e4edfb7663e79b:a7cd46422581f45cf3d12913371ef6b6:b0405e68585e3a52239c774847a21b15$"
+}
+}

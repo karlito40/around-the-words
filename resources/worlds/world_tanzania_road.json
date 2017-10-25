@@ -1,0 +1,39 @@
+{"frames": {
+
+"tanzania_scheme1":
+{
+	"frame": {"x":2,"y":573,"w":1551,"h":460},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":183,"w":1551,"h":460},
+	"sourceSize": {"w":1566,"h":703},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tanzania_scheme2":
+{
+	"frame": {"x":2,"y":2,"w":1565,"h":569},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":118,"w":1565,"h":569},
+	"sourceSize": {"w":1565,"h":703},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tanzania_scheme3":
+{
+	"frame": {"x":2,"y":1035,"w":1549,"h":665},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":23,"w":1549,"h":665},
+	"sourceSize": {"w":1748,"h":703},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "world_tanzania_road.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b5c989a558f4abb8be84724f1ff6882e:71469879765a4ecdaef2791240325850:2988b23048b4cf0978971988fb98a056$"
+}
+}

@@ -1,0 +1,39 @@
+{"frames": {
+
+"france_scheme1":
+{
+	"frame": {"x":2,"y":673,"w":1461,"h":564},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":119,"w":1461,"h":564},
+	"sourceSize": {"w":1519,"h":722},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"france_scheme2":
+{
+	"frame": {"x":2,"y":2,"w":1520,"h":669},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":12,"w":1520,"h":669},
+	"sourceSize": {"w":1520,"h":722},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"france_scheme3":
+{
+	"frame": {"x":2,"y":1239,"w":1408,"h":617},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":1408,"h":617},
+	"sourceSize": {"w":1519,"h":722},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "world_france_road.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9938caa50cefaeb2af31b3f6dcbd974f:2d227bce03c4c4e19b6f2de3f9e6609d:b78ade1b7a23b1342c72f8443707a1fe$"
+}
+}

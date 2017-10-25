@@ -1,0 +1,4 @@
+jsmodule	===> nouveau module
+jsscene ===> nouvelle scene
+jsv ===> nouvelle vue
+jspartial ===> partial

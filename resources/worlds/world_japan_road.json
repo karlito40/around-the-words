@@ -1,0 +1,39 @@
+{"frames": {
+
+"japan_scheme1":
+{
+	"frame": {"x":2,"y":615,"w":1585,"h":515},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":4,"w":1585,"h":515},
+	"sourceSize": {"w":1634,"h":712},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"japan_scheme2":
+{
+	"frame": {"x":2,"y":2,"w":1634,"h":611},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":45,"w":1634,"h":611},
+	"sourceSize": {"w":1634,"h":712},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"japan_scheme3":
+{
+	"frame": {"x":2,"y":1132,"w":1372,"h":515},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":117,"w":1372,"h":515},
+	"sourceSize": {"w":1635,"h":712},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "world_japan_road.png",
+	"format": "RGBA8888",
+	"size": {"w":1638,"h":1649},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:250ad091d170a6c4af1f344335bd945e:7ae2d2fc1ae4fa28c9a2058bb4c865fa:fea076fe40d1fd1b6fe311190870bb02$"
+}
+}

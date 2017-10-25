@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Around the words</title>
+
+		<script type="text/javascript">var LOCALE_LIST = {"fr_FR":"Fran\u00e7ais","en_GB":"English","es_ES":"Espa\u00f1ol","de_DE":"Deutsch","it_IT":"Italiano"};var WWW_PROD = "http:\/\/192.168.3.69\/around-the-word-cross\/";var EXPORT_PLATFORM = "mobile";var LANG_TO_LOCAL = {"fr":"fr_FR","en":"en_GB","es":"es_ES","de":"de_DE","it":"it_IT"};</script>
+		<style>
+			body{
+				margin:0;
+				padding: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+<body onload="init();">
+	
+			<script src="js/lib/cocoon.js"></script>
+	
+	<!-- Lib-->
+	<script src="js/lib/TweenMax.min.js"></script>
+	<script src="js/lib/ColorPropsPlugin.min.js"></script>
+	<script src="js/lib/pixi.dev.js"></script>
+	<script src="js/lib/c3pbot.min.js"></script>
+	<script src="js/lib/Crypto.js"></script>
+
+	<!-- Locale -->
+	<script src="js/locale/fr_FR.js"></script><script src="js/locale/en_GB.js"></script><script src="js/locale/es_ES.js"></script><script src="js/locale/de_DE.js"></script><script src="js/locale/it_IT.js"></script>
+						<script src="js/locale/Manager.js"></script>
+					<script src="js/util/common/Url.js"></script>
+					<script src="js/util/common/Object.js"></script>
+					<script src="js/util/common/Array.js"></script>
+					<script src="js/util/common/Color.js"></script>
+					<script src="js/util/common/Date.js"></script>
+					<script src="js/util/math/Math2.js"></script>
+					<script src="js/util/math/Depth.js"></script>
+					<script src="js/util/math/Timer.js"></script>
+					<script src="js/util/math/TimerSec.js"></script>
+					<script src="js/util/math/Probability.js"></script>
+					<script src="js/util/text/DisplayText.js"></script>
+					<script src="js/util/text/String2.js"></script>
+					<script src="js/util/text/Dictionary.js"></script>
+					<script src="js/util/ui/Screen.js"></script>
+					<script src="js/util/ui/DisplayObject.js"></script>
+					<script src="js/util/ui/Container.js"></script>
+					<script src="js/util/ui/Popup.js"></script>
+					<script src="js/util/control/Drag.js"></script>
+					<script src="js/util/control/Scroll.js"></script>
+					<script src="js/util/control/Scrollbar.js"></script>
+					<script src="js/util/control/Sound.js"></script>
+					<script src="js/util/config/Achievement.js"></script>
+					<script src="js/util/config/Level.js"></script>
+					<script src="js/util/config/Bonus.js"></script>
+					<script src="js/util/config/Shop.js"></script>
+					<script src="js/util/config/ShopCat.js"></script>
+					<script src="js/util/config/Ground.js"></script>
+					<script src="js/util/config/World.js"></script>
+					<script src="js/util/helper/LeaderboardHelper.js"></script>
+					<script src="js/api/manager/DataManager.js"></script>
+					<script src="js/api/manager/Api.js"></script>
+					<script src="js/api/manager/OnlineApi.js"></script>
+					<script src="js/api/manager/OfflineApi.js"></script>
+					<script src="js/api/manager/Storage.js"></script>
+					<script src="js/api/manager/FBManager.js"></script>
+					<script src="js/api/graph/Word.js"></script>
+					<script src="js/api/graph/World.js"></script>
+					<script src="js/api/graph/User.js"></script>
+					<script src="js/api/graph/Score.js"></script>
+					<script src="js/api/graph/Shop.js"></script>
+					<script src="js/api/graph/Bonus.js"></script>
+					<script src="js/api/graph/Tuto.js"></script>
+					<script src="js/api/graph/Achievement.js"></script>
+					<script src="js/api/graph/Notif.js"></script>
+					<script src="js/scenes/BaseScene.js"></script>
+					<script src="js/scenes/LoadingScene.js"></script>
+					<script src="js/scenes/SplashScene.js"></script>
+					<script src="js/scenes/HomeScene.js"></script>
+					<script src="js/scenes/WorldScene.js"></script>
+					<script src="js/scenes/LevelScene.js"></script>
+					<script src="js/scenes/GameScene.js"></script>
+					<script src="js/scenes/EndScene.js"></script>
+					<script src="js/scenes/WinScene.js"></script>
+					<script src="js/scenes/DefeatScene.js"></script>
+					<script src="js/game/dictionary/DictionaryLoader.js"></script>
+					<script src="js/game/dictionary/Dictionary.js"></script>
+					<script src="js/game/dictionary/DictionaryArray.js"></script>
+					<script src="js/game/dictionary/DictionarySort.js"></script>
+					<script src="js/game/core/MYGame.js"></script>
+					<script src="js/game/core/Word.js"></script>
+					<script src="js/game/core/Ground.js"></script>
+					<script src="js/game/core/Grid.js"></script>
+					<script src="js/game/core/Hole.js"></script>
+					<script src="js/game/core/LetterFish.js"></script>
+					<script src="js/game/helpers/Char.js"></script>
+					<script src="js/display/template/ViewBuilder.js"></script>
+					<script src="js/display/control/Button.js"></script>
+					<script src="js/display/control/Leaderboard.js"></script>
+					<script src="js/display/world/World.js"></script>
+					<script src="js/display/popup/PopupLevel.js"></script>
+					<script src="js/display/popup/PopupHeart.js"></script>
+					<script src="js/display/popup/PopupTuto.js"></script>
+					<script src="js/display/popup/PopupLeaderboard.js"></script>
+					<script src="js/display/popup/PopupTutoBoard.js"></script>
+					<script src="js/display/popup/PopupAchievement.js"></script>
+					<script src="js/display/popup/PopupNotif.js"></script>
+					<script src="js/display/popup/PopupShop.js"></script>
+					<script src="js/display/popup/PopupDailyReward.js"></script>
+					<script src="js/display/popup/PopupPassFriend.js"></script>
+					<script src="js/display/game/Fish.js"></script>
+					<script src="js/display/game/Ground.js"></script>
+					<script src="js/mobile/Store.js"></script>
+					<script src="js/views/scenes/home_scene.view.js"></script>
+					<script src="js/views/scenes/loading_scene.view.js"></script>
+					<script src="js/views/scenes/world_scene.view.js"></script>
+					<script src="js/views/scenes/level_scene.view.js"></script>
+					<script src="js/views/scenes/game_scene.view.js"></script>
+					<script src="js/views/scenes/defeat_scene.view.js"></script>
+					<script src="js/views/scenes/win_scene.view.js"></script>
+					<script src="js/views/partials/menu/header.partial.js"></script>
+					<script src="js/views/partials/menu/heart_bar.partial.js"></script>
+					<script src="js/views/partials/menu/bottom.partial.js"></script>
+					<script src="js/views/prefabs/worlds/world.prefab.js"></script>
+					<script src="js/views/prefabs/worlds/world_leader.prefab.js"></script>
+					<script src="js/views/prefabs/levels/component.prefab.js"></script>
+					<script src="js/views/prefabs/avatar/avatar.prefab.js"></script>
+					<script src="js/views/prefabs/button/daily_reward.prefab.js"></script>
+					<script src="js/models/DifficultyTemplate.js"></script>
+					<script src="js/models/LetterDropTemplate.js"></script>
+					<script src="js/models/WaveTemplate.js"></script>
+					<script src="js/models/User.js"></script>
+					<script src="js/models/AchievementManager.js"></script>
+					<script src="js/models/Achievement.js"></script>
+					<script src="js/models/Level.js"></script>
+					<script src="js/models/Mode.js"></script>
+					<script src="js/models/World.js"></script>
+					<script src="js/models/Bonus.js"></script>
+					<script src="js/models/Messenger.js"></script>
+					<script src="js/translate.js"></script>
+					<script src="js/App.js"></script>
+					<script src="js/config.js"></script>
+					<script src="js/Main.js"></script>
+			
+
+	<script>
+		function init()
+		{
+			var main = new ATW.Main();
+		}
+	</script>
+
+</body>
+</html>
+
+
+
